@@ -1,0 +1,12 @@
+public class Kata
+{
+  public static int Grow(int[] numbers)
+  {
+    int product = 1;
+    
+    foreach (var n in numbers)
+      product *= n;
+    
+    return product;
+  }
+}

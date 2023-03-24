@@ -1,0 +1,8 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public class Kata
+{
+     public static IEnumerable<string> OpenOrSenior(int[][] data) => data.Select(x => {  return (x[0] >= 55 && x[1] > 7) ? "Senior" : "Open";  });    
+}

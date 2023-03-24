@@ -1,0 +1,13 @@
+public class Kata
+{
+  public static string DoubleChar(string s)
+  {
+    string result = "";
+    
+  foreach (char ch in s)
+  {
+    result += ch.ToString() + ch.ToString();
+  }
+    return result;
+  }
+}
